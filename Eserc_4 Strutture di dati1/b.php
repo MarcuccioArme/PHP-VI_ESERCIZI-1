@@ -27,21 +27,21 @@
 
     }
 
-    echo "Vettore Sequenziale: <br>";
+    echo "Array Sequenziale: <br>";
     for ($i=0; $i<20; $i++) {
         $contenuto = $arraySequenziale[$i];
         echo "$contenuto ";
     }
 
     echo "<br><br>I numeri pari sono: $nPari";
-    echo "<br>Vettore dei Numeri Pari: <br>";
+    echo "<br>Array dei Numeri Pari: <br>";
     for ($i=0; $i<$nPari; $i++) {
         $contenuto = $arrayPari[$i];
         echo "$contenuto ";
     }
 
     echo "<br><br>I numeri dispari sono: $nDispari";
-    echo "<br>Vettore dei Numeri Dispari: <br>";
+    echo "<br>Array dei Numeri Dispari: <br>";
     for ($i=0; $i<$nDispari; $i++) {
         $contenuto = $arrayDispari[$i];
         echo "$contenuto ";
